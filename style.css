@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(169, 169, 226);
+    background: linear-gradient(30deg, rgb(157, 157, 223), rgb(243, 243, 255));
+    height: 100vh;
+    margin: 0;
+    background-size: 300% 301%;
+    background-repeat: no-repeat;
+    animation: AOAbgmove 3s infinite alternate linear;
+    font-family: 'Pacifico', cursive;
+    padding-top: 35vh;
+    box-sizing: border-box;
+}
+
+@keyframes AOAbgmove {
+    0% {
+        background-position: top right;
+    }
+
+    100% {
+        background-position: left bottom;
+    }
+}
+h1 {
+    text-align: center;
+    font-size: 10vh;
+}
